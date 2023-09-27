@@ -1,0 +1,67 @@
+SIMULACRO 1
+Ejercicio 1 
+
+Vamos a crear una aplicación que permita visualizar tiempos de los participantes en una competencia. 
+
+Crear la interfaz HTML (solamente el contenido de dentro del body) para poder ingresar el nombre y apellido (en un único campo) de una persona y un tiempo en segundos. En la interfaz se deberá sumar un combo desplegable con las opciones de “senior”, “normal” y “junior”.  Además crear los elementos de interfaz que sean necesarios. (2pts.) 
+
+Crear la funcionalidad para que, al hacer clic en el botón, tome la información de los campos y valide que el nombre tenga entre 2 y 40 caracteres (string.length), que comience con una mayúscula (if charCodeAt(0)) y que contenga como máximo dos espacios en blanco (iterar por el string). Además se deberá validar que el tiempo sea número y positivo (string > 0).  En caso de error se mostrará un error genérico en un párrafo de errores, sin procesar esos datos. 
+
+Si las verificaciones son correctas, mostrar en otro párrafo el nombre de la persona junto con el tiempo en segundos que obtuvo en su participación en la competencia. Si se seleccionó “senior” se bonifica el tiempo, restando un 10% al tiempo total en segundos. Sino si fue “normal”, se bonifica con un 5%.  if(valueDropdown == "senior"), etc)
+
+Se deberá acumular el histórico de todos los mensajes agregados al párrafo. Solo se deberá poder ingresar un máximo de diez resultados. (8 pts.) concatenar++
+
+Ejercicio 2 
+
+Asumiendo que se tiene: un campo de texto con id txtTexto, un botón con id btnBoton y un párrafo con id pResultado, escribir el código javascript para que, al presionar el botón se tome el texto del campo y se informe en el párrafo si aparece más veces la segunda letra del texto o la tercera o si aparecen la misma cantidad de veces (se hace referencia a número de carácter, no a posición). Se asume que el texto tendrá al menos tres caracteres, no es necesario validarlo. (5 pts.) 
+
+Se valorará la utilización de nombres de variables y funciones descriptivos, la optimización de la solución y que se respeten las estructuras que se solicita utilizar. 
+
+Identificar claramente qué ejercicio y que parte del ejercicio se está resolviendo. 
+
+
+SIMULACRO 2
+
+Ejercicio 1 
+
+Vamos a crear una aplicación que permita gestionar la ganancia de un taller que hace el mantenimiento de autos. 
+
+Crear la interfaz HTML (solamente el contenido de dentro del body) para poder ingresar el modelo y marca (en un único campo) de un auto y el kilometraje de este. En la interfaz se deberá sumar un combo desplegable con las opciones de los diferentes tipos de mantenimiento que se tienen en el taller “standard”, “advance” y “premium”.  Además, crear los elementos de interfaz que sean necesarios. (2pts.) 
+
+Crear la funcionalidad para poder, al hacer clic en el botón, tomar la información de los campos. Se deberá validar que el texto correspondiente a modelo y marca tenga entre 3 y 50 caracteres, que comience con una mayúscula, que termine en minúscula y que contenga como mínimo un espacio en blanco. Si se seleccionó “premium” el costo es de 15000, si fue “advance”, el costo es de 10000, sino el costo es de 5000. Pero además si el kilometraje es mayor o igual a 20000 se bonifica un 15% y si está entre 10000 y 20000 se bonifica un 10% al costo del service elegido. Si el kilometraje no es número o es negativo se mostrará un error en un párrafo sin procesar esos datos. 
+
+Si las verificaciones son correctas, mostrar en otro párrafo el modelo y marca del auto junto con el kilometraje y además su precio final. Solo se pueden atender 5 autos por día así que luego de procesados 5 mantenimientos, no se deberían poder ingresar más. Los diferentes resultados deberán quedar registrados de manera histórica en el párrafo (8 pts.) 
+
+Ejercicio 2 
+
+Asumiendo que se tiene: un campo de texto con id txtTexto, un botón con id btnBoton y un párrafo con id pResultado, escribir el código javascript para que al presionar el botón se tome el texto del campo y se informe en el párrafo cual es la vocal que aparece más veces en el texto ingresado. Se asume que el texto siempre tendrá al menos una vocal en él, no es necesario validarlo. (5 pts.) 
+
+Se valorará la utilización de nombres de variables y funciones descriptivos, la optimización de la solución y que se respeten las estructuras que se solicita utilizar. 
+
+Identificar claramente qué ejercicio y que parte del ejercicio se está resolviendo. 
+
+
+SIMULACRO 3
+
+Ejercicio 1
+
+Vamos a crear una aplicación que permita gestionar los usuarios de una universidad. 
+
+Crear la interfaz HTML (solamente el contenido de dentro del body) para poder ingresar los datos del usuario (en un único campo): Primer nombre y Primer Apellido. En la interfaz se deberá sumar un combo desplegable con las opciones de los diferentes tipos de usuario “docente”, “estudiante”.  Además, crear los elementos de interfaz que sean necesarios. 
+
+Crear la funcionalidad para poder, al hacer clic en el botón, tomar la información de los campos. Se deberá validar que el texto correspondiente a los datos del usuario tenga nombre y apellido separados por un espacio, tanto el nombre como el apellido tienen que comenzar con una mayúscula, tener un límite entre 4 y 10 caracteres, y no pueden contener números. 
+
+Si se seleccionó “docente” el usuario se debe crear con el nombre y el apellido concatenados con un punto “.”. 
+
+Si se seleccionó “estudiante” el usuario se debe crear con la inicial del nombre seguido del apellido. 
+
+Si las verificaciones son correctas, mostrar en un párrafo el usuario creado en minúscula. 
+En caso de error de validación se debe mostrar en otro párrafo un mensaje especificando lo sucedido. 
+
+Ejercicio 2
+
+Asumiendo que se tiene: tres campos de textos con id txtTexto1,  txtTexto2 y txtLetra, un botón con id btnBoton y un párrafo con id pResultado, escribir el código javascript para que al presionar el botón se tome el texto de los tres campos y se informe en el párrafo cuál es el texto (txtTexto1 o txtTexto2) en el que aparece más veces la letra ingresada en el campo txtLetra. No tener en cuenta si la letra pasada como parámetro está en mayúsculas o minúsculas. 
+
+Se valorará la utilización de nombres de variables y funciones descriptivos, la optimización de la solución y que se respeten las estructuras que se solicita utilizar. 
+
+Identificar claramente qué ejercicio y que parte del ejercicio se está resolviendo. 
